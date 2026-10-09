@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otaku Memes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+  <header class="hero">
+    <div class="container hero-content">
+      <span class="badge">⚠️ Peligro: Risas descontroladas</span>
+      <h1>Generador de Memes Anime 🔥</h1>
+      <p>Cargando los memes más frescos y absurdos de la comunidad otaku mediante en tiempo real.</p>
+      <button id="btn-more-memes" class="btn btn-primary">🔄 Cargar Más Memes</button>
+    </div>
+  </header>
+
+
+  <section class="banner">
+    <div class="container">
+      <p>"Si la vida te da limones, haz un meme de anime al respecto."</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2>🔥 Memes del Momento</h2>
+    
+  
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <p>Robando memes de Reddit con <code>fetch()</code>...</p>
+    </div>
+
+
+    <div id="error-msg" class="error-msg" style="display: none;"></div>
+
+
+    <div id="memes-grid" class="grid"></div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Otaku Memes. Todos los derechos... Para Subaru</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
